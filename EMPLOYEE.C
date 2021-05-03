@@ -82,7 +82,7 @@ void query(){
 	j = 0;
 	while(j<p){
 		curr = *(picker + j);
-		printf("Name : %s \t Code : %s \y DOJ : %s\n", e[curr].name, e[curr].empcode, e[curr].doj);
+		printf("Name : %s \t Code : %s \t DOJ : %s\n", e[curr].name, e[curr].empcode, e[curr].doj);
 		j++;
 	}
 	free(picker);
